@@ -4,20 +4,20 @@ public class createTree{
     public static void main(String[] args) {
         sc = new Scanner(System.in);
         node root = create();	
-        // System.out.println("IN-ORDER PRINT  -> ");
-        // inorder(root);
-        // System.out.println("PRE-ORDER PRINT  -> ");
-        // preorder(root);
-        // System.out.println("POST-ORDER PRINT  -> ");
-        // postorder(root);
-        //int res = height(root);
-        //System.out.println(res);
-        // int ans = size(root);
-        // System.out.println(ans);
-        // int min = mini(root);
-        // System.out.println(min);
-        // int maxi = maxi(root);
-        // System.out.println(maxi);
+        System.out.println("IN-ORDER PRINT  -> ");
+        inorder(root);
+        System.out.println("PRE-ORDER PRINT  -> ");
+        preorder(root);
+        System.out.println("POST-ORDER PRINT  -> ");
+        postorder(root);
+        int res = height(root);
+        System.out.println(res);
+        int ans = size(root);
+        System.out.println(ans);
+        int min = mini(root);
+        System.out.println(min);
+        int maxi = maxi(root);
+        System.out.println(maxi);
         levelorder(root, 3);
         
 
